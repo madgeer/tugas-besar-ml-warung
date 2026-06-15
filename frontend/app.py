@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Backend API URL
-API_URL = "http://127.0.0.1:8000"
+API_URL = "http://127.0.0.1:8001"
 
 # --- Styling CSS Custom ---
 st.markdown("""
@@ -161,7 +161,7 @@ def show_dashboard():
             det_col1, det_col2 = st.columns([1, 1.2])
             
             with det_col1:
-                st.markdown("### ⚠️ Peringatan Stok Menipis")
+                st.markdown("### Peringatan Stok Menipis")
                 st.markdown("Produk dengan stok di bawah batas minimal (10 unit) yang perlu segera di-restock:")
                 
                 low_stock = data.get("low_stock_alerts", [])
@@ -194,7 +194,7 @@ def show_dashboard():
 
 # --- Halaman Kelola Barang ---
 def show_kelola_barang():
-    st.title("📦 Kelola Master Data Barang")
+    st.title("Kelola Master Data Barang")
     st.markdown("Tambah, edit, atau hapus data barang dagangan warung.")
     
     try:
@@ -576,6 +576,15 @@ def show_prediksi():
                                 st.write(f"- Rata-rata error (MAE): **{t_data['mean_mae']:.2f} unit**")
                             else:
                                 st.error("Gagal melatih ulang model (Data transaksi di database kemungkinan kurang).")
+                    
+                    st.markdown("---")
+                    st.markdown("""
+                    **Arsitektur & Alur Deployment (Slide 10-11 PDF):**
+                    *   **Pipeline:** `sklearn.pipeline.Pipeline` (Aktif)
+                    *   **Preprocessing:** `StandardScaler()` (Penyamaan Skala)
+                    *   **Estimator:** `DecisionTreeRegressor(max_depth=4)`
+                    *   **Format Simpan:** `Joblib (Compressed)`
+                    """)
                                 
             # Tombol prediksi ditekan
             if predict_btn:

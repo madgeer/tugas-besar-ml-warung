@@ -4,10 +4,12 @@ import numpy as np
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_absolute_error
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
 import joblib
 from backend.database import get_connection
 
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "model_decision_tree.joblib")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model_decision_tree.pkl")
 
 def load_data_from_db():
     """
@@ -133,23 +135,29 @@ def train_decision_tree():
             X_tr, X_te = X[train_idx], X[test_idx]
             y_tr, y_te = y[train_idx], y[test_idx]
             
-            # Batasi kedalaman pohon (max_depth=4) untuk mencegah overfitting
-            fold_model = DecisionTreeRegressor(max_depth=4, random_state=42)
-            fold_model.fit(X_tr, y_tr)
-            preds = fold_model.predict(X_te)
+            # Batasi kedalaman pohon (max_depth=4) untuk mencegah overfitting, gunakan pipeline
+            fold_pipeline = Pipeline([
+                ('scaler', StandardScaler()),
+                ('regressor', DecisionTreeRegressor(max_depth=4, random_state=42))
+            ])
+            fold_pipeline.fit(X_tr, y_tr)
+            preds = fold_pipeline.predict(X_te)
             mae_scores.append(mean_absolute_error(y_te, preds))
         
         mean_mae = float(np.mean(mae_scores))
     else:
         mean_mae = 0.0
 
-    # 2. Train model akhir pada seluruh dataset
-    final_model = DecisionTreeRegressor(max_depth=4, random_state=42)
-    final_model.fit(X, y)
+    # 2. Train pipeline akhir pada seluruh dataset
+    final_pipeline = Pipeline([
+        ('scaler', StandardScaler()),
+        ('regressor', DecisionTreeRegressor(max_depth=4, random_state=42))
+    ])
+    final_pipeline.fit(X, y)
 
-    # Simpan model beserta daftar fitur
+    # Simpan pipeline beserta daftar fitur
     model_data = {
-        "model": final_model,
+        "pipeline": final_pipeline,
         "features": features,
         "mean_mae": mean_mae,
         "data_count": len(dataset)
@@ -161,7 +169,7 @@ def train_decision_tree():
         "success": True,
         "mean_mae": mean_mae,
         "data_count": len(dataset),
-        "message": "Model Decision Tree berhasil dilatih dan disimpan."
+        "message": "Pipeline model Decision Tree berhasil dilatih dan disimpan."
     }
 
 def get_trained_model():
@@ -186,12 +194,12 @@ def predict_sales_for_period(barang_id, target_year, target_month):
     Metode: memprediksi penjualan untuk minggu 1 s/d 5 pada bulan target,
     kemudian menjumlahkannya untuk mendapatkan total bulanan.
     """
-    # 1. Ambil data model
+    # 1. Ambil data model (pipeline)
     model_data, err = get_trained_model()
     if err:
         return {"success": False, "message": err}
         
-    model = model_data["model"]
+    pipeline = model_data.get("pipeline", model_data.get("model"))
     
     # 2. Ambil informasi harga jual barang saat ini dan sisa stok
     conn = get_connection()
@@ -241,7 +249,7 @@ def predict_sales_for_period(barang_id, target_year, target_month):
             penjualan_bulan_lalu
         ]])
         
-        pred = model.predict(input_features)[0]
+        pred = pipeline.predict(input_features)[0]
         # Penjualan tidak boleh negatif, jadi kita clip di 0
         weekly_predictions.append(max(0.0, round(float(pred), 2)))
         
