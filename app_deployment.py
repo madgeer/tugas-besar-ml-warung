@@ -78,8 +78,8 @@ def load_model():
 model_data = load_model()
 
 # --- Sidebar Navigasi ---
-st.sidebar.markdown("<h2 style='text-align: center; color: #0f4c81;'>🏪 Toko Setia Ciawi</h2>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='text-align: center; color: #666;'>Sistem Pendukung Keputusan Penjualan</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<h2 style='text-align: center; color: #00CDFF;'>Toko Setia Ciawi</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='text-align: center; color: #D9D9D9;'>Sistem Pendukung Keputusan Penjualan</p>", unsafe_allow_html=True)
 st.sidebar.write("---")
 
 menu = st.sidebar.radio(
