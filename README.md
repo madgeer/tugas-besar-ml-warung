@@ -1,102 +1,90 @@
-# Sistem Prediksi Stok & Rekomendasi Penjualan - Toko Setia Ciawi
+# 🏪 Sistem Pendukung Keputusan Toko Setia Ciawi
+> **Tugas Besar Machine Learning - Semester 4**
 
-Aplikasi cerdas berbasis web untuk membantu manajemen stok inventaris dan strategi penjualan pada **Toko Setia Ciawi**. Sistem ini menggunakan algoritma **Decision Tree Regressor** untuk memprediksi jumlah stok barang yang perlu dibeli di periode berikutnya (ML RESTOCK) dan algoritma **Apriori** untuk memberikan rekomendasi produk pelengkap (CROSS-SELLING) secara real-time pada kasir.
+Repositori ini berisi implementasi sistem kecerdasan buatan untuk membantu pemilik kelontong **Toko Setia Ciawi** dalam mengoptimalkan manajemen stok barang dan menyusun strategi penjualan kasir.
 
+---
 
-## Arsitektur Teknologi
-Sistem didevelop dengan arsitektur modern decoupled:
-1. **Frontend (Streamlit)**: Antarmuka kasir dan dasbor pemilik toko yang interaktif, responsif, dan kaya visual (premium UI styling).
-2. **Backend (FastAPI)**: REST API berkinerja tinggi sebagai jembatan logika transaksi, komputasi rekomendasi restock, inferensi ML, serta pembentukan aturan asosiasi Apriori.
-3. **Database (MySQL)**: Media penyimpanan persisten untuk master barang, transaksi penjualan harian, histori detail item transaksi, cache prediksi, dan user account.
-4. **Machine Learning (Scikit-Learn & Joblib)**: Engine pemodelan Decision Tree Regressor untuk menganalisis data musiman (weekly/monthly) serta fluktuasi penjualan produk.
+## 📌 Anggota Tim & Kontribusi
+* **Peran Tim:** Pemodelan Machine Learning, Pembersihan Data, & Pengembangan Antarmuka Web (Streamlit).
 
+---
 
-## Struktur Proyek
+## 🚀 Fitur Utama Aplikasi
+1. **Dashboard Dataset:** Analisis deskriptif interaktif dari data transaksi riil (`data.csv`).
+2. **Prediksi Penjualan & Rekomendasi Restock:** Menggunakan model **Decision Tree Regressor** untuk memprediksi penjualan mingguan produk dan memberikan rekomendasi jumlah barang yang harus di-restock berdasarkan batas aman (*Safety Stock*).
+3. **Strategi Cross-Selling Kasir:** Menggunakan algoritma **Apriori** untuk menemukan aturan asosiasi barang (*Market Basket Analysis*) guna merekomendasikan produk pendamping saat transaksi di kasir.
+
+---
+
+## 🛠️ Arsitektur Machine Learning
+
+Sistem ini menggabungkan dua metode pembelajaran mesin:
+
+### 1. Supervised Learning (Prediksi Kebutuhan Stok)
+* **Algoritma:** `DecisionTreeRegressor` (max_depth=4).
+* **Fitur Input:**
+  * `barang_id`: Representasi numerik unik produk.
+  * `bulan`: Bulan target proyeksi.
+  * `minggu_ke`: Minggu target dalam sebulan (1 s/d 5).
+  * `penjualan_bulan_lalu` (Lag Feature): Total volume penjualan produk pada bulan sebelumnya.
+* **Pipeline Pemrosesan:** `StandardScaler` ➔ `DecisionTreeRegressor`.
+* **Metode Evaluasi:** 5-Fold Cross Validation.
+* **Skor MAE (Mean Absolute Error):** ±3.72 unit laku per minggu.
+
+### 2. Unsupervised Learning (Analisis Keranjang Belanja)
+* **Algoritma:** `Apriori` & `Association Rules` (mlxtend).
+* **Konfigurasi Aturan:**
+  * Minimum Support: 2% (`min_support = 0.02`)
+  * Minimum Confidence: 30% (`min_confidence = 0.3`)
+
+---
+
+## 📂 Struktur Direktori Proyek
+
 ```text
 tugas-besar/
-├── backend/
-│   ├── app.py                # FastAPI Server & Endpoints
-│   ├── database.py           # Inisialisasi skema & koneksi MySQL
-│   ├── ml_engine.py          # Preprocessing data & Decision Tree Training/Prediction
-│   ├── apriori_engine.py     # Penambangan Aturan Asosiasi (Zero-Dependency)
-│   └── model_decision_tree.joblib  # Hasil dump model ML terlatih
-├── docs/
-│   └── rancangan.md          # Dokumen Perancangan Sistem Lengkap
-├── frontend/
-│   └── app.py                # Aplikasi Streamlit Dashboard & Kasir
-├── data.csv                  # Dataset asli historis transaksi Toko Setia Ciawi
-├── seed_db.py                # Script inisialisasi schema, cleansing data, & seeding
-├── requirements.txt          # Daftar pustaka dependensi Python
-└── README.md                 # Petunjuk instalasi & penggunaan ini
+│
+├── data.csv                   # Dataset historis transaksi kasir (sudah bersih)
+├── model.joblib               # Pipeline model Decision Tree hasil training (.joblib)
+├── requirements.txt           # Daftar dependensi library Python
+│
+├── notebook.ipynb             # Jupyter Notebook laporan pemodelan & analisis (utama)
+├── tugas_besar.py             # Script Python hasil ekstraksi notebook (sekat sel interaktif)
+├── app_deployment.py          # Dashboard UI interaktif berbasis Streamlit
+│
+└── .venv/                     # Virtual environment Python (lokal)
 ```
 
+---
 
-## Skema Basis Data (MySQL)
-Sistem ini menggunakan tipe data **`FLOAT`** pada kuantitas penjualan (`jumlah`) dan persediaan (`stok`) untuk menampung unit pecahan/desimal dari barang sembako (seperti telur `0.5 Kg` atau gula `0.25 Kg`) tanpa mengalami pemotongan pembulatan (*truncation*).
+## 🧹 Pembersihan Kualitas Data (*Data Cleaning*)
+Sebelum model dilatih, dataset [data.csv](data.csv) telah melalui tahap pembersihan data otomatis:
+1. **Desimal Koma ke Titik:** Mengubah pemisah pecahan desimal pada kolom `Jumlah` (contoh: `3,25` menjadi `3.25`) agar terbaca sebagai angka numerik oleh model.
+2. **Merge Typo Label Produk:** Menyatukan label produk yang identik tetapi memiliki kesalahan ketik (contoh: `Rokok Jarum Cokelat` & `Rokok Jarim Coklat` disatukan menjadi `Rokok Jarum Coklat`).
 
-Tabel yang digunakan:
-* **`users`**: Data otentikasi pemilik (default: `admin` / `admin`).
-* **`barang`**: Master data produk (kode, nama standar, kategori, harga jual, stok).
-* **`transaksi`**: Nomor nota unik, tanggal transaksi, dan total pembayaran.
-* **`detail_transaksi`**: Detail item per nota (barang ID, jumlah kuantitas, subtotal).
-* **`prediksi`**: Caching histori hasil prediksi penjualan produk dan rekomendasi restock bulanan.
+---
 
-
-## Fitur Utama & Pola Bisnis Terintegrasi
-* **Dasbor Analytics & Alert Stok**: Menampilkan omzet penjualan total, variasi produk, dan peringatan instan untuk produk yang stok fisiknya menipis (di bawah 10 unit).
-* **Pencatatan Transaksi & Auto-Potong Stok**: Modul kasir terintegrasi yang otomatis memotong stok barang di database setelah transaksi dikonfirmasi.
-* **Rekomendasi Apriori Live (Cross-Selling)**: Memberikan rekomendasi produk tambahan secara otomatis di kasir saat produk tertentu dipilih.
-  - *Aturan Bisnis Terdeteksi*: Jika pelanggan membeli **Masako**, sistem merekomendasikan **Minyak Goreng Curah** dan **Tepung Tapioka** dengan tingkat keyakinan (*confidence*) hingga **88%** (pola belanja bahan gorengan).
-* **Pola Waktu Khusus Anak PAUD**:
-  - *Aturan Seeding*: Histori transaksi makanan ringan (seperti ciki, permen, biskuit) khusus pada hari **Senin, Selasa, dan Rabu** otomatis diset pada pukul **09:00 - 10:00 pagi** (mengikuti pola waktu anak PAUD pulang sekolah agar model ML mendeteksi lonjakan musiman ini secara tajam).
-* **Modul Prediksi ML (Decision Tree)**: Memprediksi penjualan bulanan produk dan menghitung jumlah barang yang harus dipesan/dibeli lagi berdasarkan sisa stok gudang dan *safety stock*.
-
-
-## Langkah Instalasi & Menjalankan Aplikasi
+## 💻 Cara Menginstal & Menjalankan Aplikasi
 
 ### 1. Prasyarat (Prerequisites)
-* Python versi 3.10 ke atas terinstall di komputer.
-* MySQL Server terinstall dan sedang berjalan (XAMPP/Laragon/Docker).
+Pastikan Python 3.8+ telah terinstal pada komputer Anda.
 
-### 2. Kloning & Pembuatan Virtual Environment
-Buka terminal/PowerShell di folder proyek Anda:
-```bash
-# Buat virtual environment
-python -m venv venv
-
-# Aktifkan virtual environment (Windows)
-.\venv\Scripts\activate
-```
-
-### 3. Instalasi Dependensi
-Instal seluruh pustaka python yang dibutuhkan:
+### 2. Instalasi Dependensi
+Buka terminal/PowerShell di folder proyek dan jalankan perintah berikut untuk menginstal seluruh kebutuhan library:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Setup MySQL Database
-Pastikan MySQL Anda sudah aktif pada port default `3306`. Secara bawaan, sistem akan membuat database bernama `warung_db` dengan user `root` dan tanpa password. Jika Anda ingin mengubah kredensial database, silakan ubah berkas `backend/database.py` atau gunakan Environment Variables (`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_PORT`).
-
-### 5. Cleansing, Seeding & Training Awal
-Jalankan script `seed_db.py` untuk mengosongkan database lama, memproses data desimal dari `data.csv`, serta melatih model ML pertama kali:
+### 3. Menjalankan Model Training (Opsional)
+Jika ingin melatih ulang model Decision Tree dan memperbarui berkas `.joblib`:
 ```bash
-python seed_db.py
-```
-*Output sukses akan menunjukkan pemetaan **84 produk** dan status model ML berhasil dilatih.*
-
-### 6. Menjalankan Server Backend (FastAPI)
-Jalankan server backend FastAPI pada port `8000`:
-```bash
-uvicorn backend.app:app --reload
+python tugas_besar.py
 ```
 
-### 7. Menjalankan Dashboard Frontend (Streamlit)
-Buka terminal baru, aktifkan venv, lalu jalankan aplikasi antarmuka Streamlit:
+### 4. Menjalankan Dashboard Streamlit
+Untuk membuka antarmuka web interaktif di browser lokal Anda:
 ```bash
-streamlit run frontend/app.py
+python -m streamlit run app_deployment.py
 ```
-
-Setelah itu, aplikasi Streamlit otomatis terbuka di browser Anda (biasanya di `http://localhost:8501`). Silakan masuk menggunakan akun default:
-* **Username**: `admin`
-* **Password**: `admin`
-
+Aplikasi secara otomatis akan terbuka di browser Anda pada alamat: **`http://localhost:8501`**

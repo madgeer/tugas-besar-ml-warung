@@ -67,10 +67,10 @@ def load_data():
 
 df = load_data()
 
-# 4. Load Model .pkl
+# 4. Load Model .joblib
 @st.cache_resource
 def load_model():
-    model_path = os.path.join("backend", "model_decision_tree.pkl")
+    model_path = "model.joblib"
     if os.path.exists(model_path):
         return joblib.load(model_path)
     return None
@@ -87,8 +87,6 @@ menu = st.sidebar.radio(
     ["Dashboard & Dataset", "Prediksi Restock (Decision Tree)", "Rekomendasi Cross-Selling (Apriori)"]
 )
 
-st.sidebar.write("---")
-st.sidebar.info("**Aplikasi Standalone:** Aplikasi ini berjalan 100% menggunakan file lokal `data.csv` dan `model_decision_tree.pkl` tanpa memerlukan database server (MySQL).")
 
 if df is None:
     st.error("File `data.csv` tidak ditemukan di root direktori. Silakan letakkan file data terlebih dahulu.")
@@ -132,10 +130,10 @@ else:
     # --- MENU 2: PREDIKSI RESTOCK (DECISION TREE) ---
     elif menu == "Prediksi Restock (Decision Tree)":
         st.title("Prediksi Penjualan & Rekomendasi Restock")
-        st.markdown("Gunakan model **Decision Tree Regressor** dari file `.pkl` untuk memprediksi penjualan barang bulan depan.")
+        st.markdown("Gunakan model **Decision Tree Regressor** dari file `.joblib` untuk memprediksi penjualan barang bulan depan.")
         
         if model_data is None:
-            st.warning("Model biner `backend/model_decision_tree.pkl` belum ada. Silakan jalankan file `Tugas_Besar_ML.ipynb` terlebih dahulu untuk menghasilkan file model.")
+            st.warning("Model biner `model.joblib` belum ada. Silakan jalankan file `Tugas_Besar_ML.ipynb` terlebih dahulu untuk menghasilkan file model.")
         else:
             col_in1, col_in2 = st.columns([1.5, 1])
             
@@ -168,12 +166,12 @@ else:
                     
             with col_in2:
                 with st.container(border=True):
-                    st.markdown("### Informasi Model Terbaca (.pkl)")
+                    st.markdown("### Informasi Model Terbaca (.joblib)")
                     st.write(f"- **Metrik Rata-rata Error (MAE):** `{model_data['mean_mae']:.4f} unit`")
                     st.write(f"- **Jumlah Data Latih:** `{model_data['data_count']} baris`")
                     st.write("- **Preprocessing:** `StandardScaler()` (Aktif)")
                     st.write("- **Estimator:** `DecisionTreeRegressor(max_depth=4)`")
-                    st.write("- **Sumber Model:** `backend/model_decision_tree.pkl`")
+                    st.write("- **Sumber Model:** `model.joblib`")
                     
             if predict_btn:
                 # 1. Hitung Lag Feature: penjualan_bulan_lalu dari data.csv
@@ -198,11 +196,9 @@ else:
                 weekly_predictions = []
                 
                 for week in range(1, 6):
-                    # Format input fitur: ['barang_id', 'harga_jual', 'bulan', 'minggu_ke', 'penjualan_bulan_lalu']
-                    # Gunakan harga jual dummy = 5000 (sesuai preprocessing training)
+                    # Format input fitur: ['barang_id', 'bulan', 'minggu_ke', 'penjualan_bulan_lalu']
                     input_features = np.array([[
                         barang_id,
-                        5000,
                         target_month,
                         week,
                         penjualan_bulan_lalu

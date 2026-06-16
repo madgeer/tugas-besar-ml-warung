@@ -1,468 +1,468 @@
 ID_Transaksi,Tanggal,Nama_barang,Jumlah,Satuan
 TRX-001,2026 - 5 - 18,Telor,0.5,Kg
-TRX-001,2026 - 5 - 18,Bawang Merah,1,Ons
+TRX-001,2026 - 5 - 18,Bawang Merah,1.0,Ons
 TRX-001,2026 - 5 - 18,Bawang Putih,0.5,Ons
-TRX-002,2026 - 5 - 18,Rokok Jarum Super,1,Bungkus
-TRX-002,2026 - 5 - 18,Chiki Balls,2,Bungkus
-TRX-003,2026 - 5 - 18,Choki Choki,3,Bungkus
-TRX-004,2026 - 5 - 18,Air mineral,2,Botol
-TRX-004,2026 - 5 - 18,Permen,2,Pcs
-TRX-005,2026 - 5 - 18,Teh pucuk,2,Botol
-TRX-006,2026 - 5 - 18,Wafer Super Star,3,Bungkus
-TRX-006,2026 - 5 - 18,Permen,3,Pcs
-TRX-007,2026 - 5 - 18,Permen,1,Pcs
-TRX-007,2026 - 5 - 18,Chitato,1,Bungkus
-TRX-008,2026 - 5 - 18,Permen,3,Pcs
-TRX-008,2026 - 5 - 18,Cheetos,2,Bungkus
-TRX-009,2026 - 5 - 18,Permen,4,Pcs
-TRX-009,2026 - 5 - 18,Biskuit Arden,2,Bungkus
-TRX-010,2026 - 5 - 18,Map,1,Lembar
-TRX-011,2026 - 5 - 18,Map,1,Lembar
-TRX-012,2026 - 5 - 18,Rokok Jarum Super,1,Bungkus
+TRX-002,2026 - 5 - 18,Rokok Jarum Super,1.0,Bungkus
+TRX-002,2026 - 5 - 18,Chiki Balls,2.0,Bungkus
+TRX-003,2026 - 5 - 18,Choki Choki,3.0,Bungkus
+TRX-004,2026 - 5 - 18,Air mineral,2.0,Botol
+TRX-004,2026 - 5 - 18,Permen,2.0,Pcs
+TRX-005,2026 - 5 - 18,Teh pucuk,2.0,Botol
+TRX-006,2026 - 5 - 18,Wafer Super Star,3.0,Bungkus
+TRX-006,2026 - 5 - 18,Permen,3.0,Pcs
+TRX-007,2026 - 5 - 18,Permen,1.0,Pcs
+TRX-007,2026 - 5 - 18,Chitato,1.0,Bungkus
+TRX-008,2026 - 5 - 18,Permen,3.0,Pcs
+TRX-008,2026 - 5 - 18,Cheetos,2.0,Bungkus
+TRX-009,2026 - 5 - 18,Permen,4.0,Pcs
+TRX-009,2026 - 5 - 18,Biskuit Arden,2.0,Bungkus
+TRX-010,2026 - 5 - 18,Map,1.0,Lembar
+TRX-011,2026 - 5 - 18,Map,1.0,Lembar
+TRX-012,2026 - 5 - 18,Rokok Jarum Super,1.0,Bungkus
 TRX-012,2026 - 5 - 18,Rokok Jarum Coklat,0.5,Bungkus
-TRX-013,2026 - 5 - 18,Materai,2,Lembar
-TRX-013,2026 - 5 - 18,Pembalut,6,Bungkus
-TRX-013,2026 - 5 - 18,Bodrex,1,Strip
+TRX-013,2026 - 5 - 18,Materai,2.0,Lembar
+TRX-013,2026 - 5 - 18,Pembalut,6.0,Bungkus
+TRX-013,2026 - 5 - 18,Bodrex,1.0,Strip
 TRX-014,2026 - 5 - 18,Gula Pasir,0.25,Kg
-TRX-014,2026 - 5 - 18,Kapur Sirih,4,Bungkus
+TRX-014,2026 - 5 - 18,Kapur Sirih,4.0,Bungkus
 TRX-015,2026 - 5 - 18,Tepung Tapioka,1.5,Kg
 TRX-015,2026 - 5 - 18,Tepung Terigu,0.25,Kg
 TRX-015,2026 - 5 - 18,Bawang Putih,0.5,Ons
-TRX-016,2026 - 5 - 18,Air Mineral,1,Botol
-TRX-016,2026 - 5 - 18,Biskuit Roma,1,Bungkus
-TRX-017,2026 - 5 - 18,Sabun Sunlight,1,Bungkus
-TRX-018,2026 - 5 - 18,Rokok Jarum Super,1,Bungkus
-TRX-019,2026 - 5 - 18,Minyak Goreng Curah,1,Kg
-TRX-019,2026 - 5 - 18,Tepung Terigu,1,Kg
-TRX-020,2026 - 5 - 19,Indomie Rebus,1,Bungkus
-TRX-020,2026 - 5 - 19,Sabun Sunlight,1,Bungkus
-TRX-021,2026 - 5 - 19,Permen,6,Pcs
-TRX-022,2026 - 5 - 19,Rokok Jarum Coklat,1,Bungkus
-TRX-023,2026 - 5 - 19,Puring Nasi,3,Lembar
-TRX-024,2026 - 5 - 19,Wafer Super Star,3,Bungkus
-TRX-024,2026 - 5 - 19,Permen,3,Pcs
-TRX-025,2026 - 5 - 19,Biskuit Arden,3,Bungkus
-TRX-025,2026 - 5 - 19,Permen,1,Pcs
-TRX-026,2026 - 5 - 19,Air Mineral,1,Botol
-TRX-027,2026 - 5 - 19,Choki Choki,3,Bungkus
-TRX-028,2026 - 5 - 19,Chiki Balls,1,Bungkus
-TRX-029,2026 - 5 - 19,Chitato,1,Bungkus
-TRX-029,2026 - 5 - 19,Permen ,1,Pcs
-TRX-030,2026 - 5 - 19,Baterai,2,Pcs
-TRX-031,2026 - 5 - 19,Wafer Super Star,2,Bungkus
-TRX-031,2026 - 5 - 19,Air Mineral,1,Botol
-TRX-032,2026 - 5 - 19,Permen,1,Pcs
+TRX-016,2026 - 5 - 18,Air Mineral,1.0,Botol
+TRX-016,2026 - 5 - 18,Biskuit Roma,1.0,Bungkus
+TRX-017,2026 - 5 - 18,Sabun Sunlight,1.0,Bungkus
+TRX-018,2026 - 5 - 18,Rokok Jarum Super,1.0,Bungkus
+TRX-019,2026 - 5 - 18,Minyak Goreng Curah,1.0,Kg
+TRX-019,2026 - 5 - 18,Tepung Terigu,1.0,Kg
+TRX-020,2026 - 5 - 19,Indomie Rebus,1.0,Bungkus
+TRX-020,2026 - 5 - 19,Sabun Sunlight,1.0,Bungkus
+TRX-021,2026 - 5 - 19,Permen,6.0,Pcs
+TRX-022,2026 - 5 - 19,Rokok Jarum Coklat,1.0,Bungkus
+TRX-023,2026 - 5 - 19,Puring Nasi,3.0,Lembar
+TRX-024,2026 - 5 - 19,Wafer Super Star,3.0,Bungkus
+TRX-024,2026 - 5 - 19,Permen,3.0,Pcs
+TRX-025,2026 - 5 - 19,Biskuit Arden,3.0,Bungkus
+TRX-025,2026 - 5 - 19,Permen,1.0,Pcs
+TRX-026,2026 - 5 - 19,Air Mineral,1.0,Botol
+TRX-027,2026 - 5 - 19,Choki Choki,3.0,Bungkus
+TRX-028,2026 - 5 - 19,Chiki Balls,1.0,Bungkus
+TRX-029,2026 - 5 - 19,Chitato,1.0,Bungkus
+TRX-029,2026 - 5 - 19,Permen ,1.0,Pcs
+TRX-030,2026 - 5 - 19,Baterai,2.0,Pcs
+TRX-031,2026 - 5 - 19,Wafer Super Star,2.0,Bungkus
+TRX-031,2026 - 5 - 19,Air Mineral,1.0,Botol
+TRX-032,2026 - 5 - 19,Permen,1.0,Pcs
 TRX-033,2026 - 5 - 19,Tepung Tapioka,2.5,Kg
 TRX-033,2026 - 5 - 19,Minyak Goreng Curah,0.25,Kg
-TRX-033,2026 - 5 - 19,Masako,6,Bungkus
-TRX-033,2026 - 5 - 19,Ladaku,1,Bungkus
+TRX-033,2026 - 5 - 19,Masako,6.0,Bungkus
+TRX-033,2026 - 5 - 19,Ladaku,1.0,Bungkus
 TRX-033,2026 - 5 - 19,Bawang Putih,0.5,Ons
 TRX-034,2026 - 5 - 19,Minyak Goreng Curah,0.25,Kg
-TRX-035,2026 - 5 - 19,Rokok Jarum Super,1,Bungkus
-TRX-036,2026 - 5 - 19,Rokok Jarum Coklat,1,Bungkus
-TRX-037,2026 - 5 - 19,Kopi Kapal Api,1,Bungkus
-TRX-038,2026 - 5 - 19,Cheetos,1,Bungkus
-TRX-039,2026 - 5 - 20,Gilet Alat Cukur,1,Pcs
-TRX-040,2026 - 5 - 20,Detergen Rinso,3,Bungkus
-TRX-040,2026 - 5 - 20,Wafer Super Star,2,Bungkus
-TRX-041,2026 - 5 - 20,Kopi Kapal Api,3,Bungkus
-TRX-041,2026 - 5 - 20,Rokok Jarum Super,2,Bungkus
+TRX-035,2026 - 5 - 19,Rokok Jarum Super,1.0,Bungkus
+TRX-036,2026 - 5 - 19,Rokok Jarum Coklat,1.0,Bungkus
+TRX-037,2026 - 5 - 19,Kopi Kapal Api,1.0,Bungkus
+TRX-038,2026 - 5 - 19,Cheetos,1.0,Bungkus
+TRX-039,2026 - 5 - 20,Gilet Alat Cukur,1.0,Pcs
+TRX-040,2026 - 5 - 20,Detergen Rinso,3.0,Bungkus
+TRX-040,2026 - 5 - 20,Wafer Super Star,2.0,Bungkus
+TRX-041,2026 - 5 - 20,Kopi Kapal Api,3.0,Bungkus
+TRX-041,2026 - 5 - 20,Rokok Jarum Super,2.0,Bungkus
 TRX-042,2026 - 5 - 20,Telor,0.5,Kg
 TRX-042,2026 - 5 - 20,Gula Pasir,0.25,Kg
-TRX-042,2026 - 5 - 20,Kopi Kapal Api,1,Bungkus
-TRX-042,2026 - 5 - 20,Kue,1,Bungkus
-TRX-042,2026 - 5 - 20,Sasa,1,Bungkus
-TRX-042,2026 - 5 - 20,Kamper,1,Bungkus
-TRX-043,2026 - 5 - 20,Chiki Chitato,1,Bungkus
-TRX-044,2026 - 5 - 20,Chiki Chitato,1,Bungkus
-TRX-044,2026 - 5 - 20,Permen,1,Pcs
-TRX-045,2026 - 5 - 20,Biskuit Arden,2,Bungkus
-TRX-045,2026 - 5 - 20,Cokelat,1,Bungkus
-TRX-045,2026 - 5 - 20,Permen,3,Pcs
-TRX-046,2026 - 5 - 20,Pahpir,4,Bungkus
-TRX-047,2026 - 5 - 20,Teh pucuk,1,Botol
-TRX-047,2026 - 5 - 20,Permen,1,Pcs
-TRX-048,2026 - 5 - 20,Tepung Terigu,1,Kg
-TRX-048,2026 - 5 - 20,Minyak Goreng Curah,1,Kg
-TRX-048,2026 - 5 - 20,Garam,1,Bungkus
-TRX-049,2026 - 5 - 20,Shampo,2,Bungkus
-TRX-049,2026 - 5 - 20,Pembalut,4,Bungkus
-TRX-050,2026 - 5 - 20,Gula Merah,3,Buah
-TRX-051,2026 - 5 - 20,Kopi ABC,2,Bungkus
-TRX-052,2026 - 5 - 20,Sabun Mandi,1,Bungkus
-TRX-053,2026 - 5 - 20,Shampo,2,Bungkus
-TRX-054,2026 - 5 - 20,Permen,2,Pcs
-TRX-055,2026 - 5 - 20,Materai,2,Lembar
-TRX-055,2026 - 5 - 20,Map,1,Lembar
-TRX-056,2026 - 5 - 20,Permen,1,Pcs
-TRX-057,2026 - 5 - 20,Teh Gelas,1,Cup
-TRX-057,2026 - 5 - 20,Permen,3,Pcs
-TRX-058,2026 - 5 - 20,Wafer Super Star,4,Bungkus
-TRX-058,2026 - 5 - 20,Indomie Rebus,2,Bungkus
+TRX-042,2026 - 5 - 20,Kopi Kapal Api,1.0,Bungkus
+TRX-042,2026 - 5 - 20,Kue,1.0,Bungkus
+TRX-042,2026 - 5 - 20,Sasa,1.0,Bungkus
+TRX-042,2026 - 5 - 20,Kamper,1.0,Bungkus
+TRX-043,2026 - 5 - 20,Chiki Chitato,1.0,Bungkus
+TRX-044,2026 - 5 - 20,Chiki Chitato,1.0,Bungkus
+TRX-044,2026 - 5 - 20,Permen,1.0,Pcs
+TRX-045,2026 - 5 - 20,Biskuit Arden,2.0,Bungkus
+TRX-045,2026 - 5 - 20,Cokelat,1.0,Bungkus
+TRX-045,2026 - 5 - 20,Permen,3.0,Pcs
+TRX-046,2026 - 5 - 20,Pahpir,4.0,Bungkus
+TRX-047,2026 - 5 - 20,Teh pucuk,1.0,Botol
+TRX-047,2026 - 5 - 20,Permen,1.0,Pcs
+TRX-048,2026 - 5 - 20,Tepung Terigu,1.0,Kg
+TRX-048,2026 - 5 - 20,Minyak Goreng Curah,1.0,Kg
+TRX-048,2026 - 5 - 20,Rokok Garam Merah,1.0,Bungkus
+TRX-049,2026 - 5 - 20,Shampo,2.0,Bungkus
+TRX-049,2026 - 5 - 20,Pembalut,4.0,Bungkus
+TRX-050,2026 - 5 - 20,Gula Merah,3.0,Buah
+TRX-051,2026 - 5 - 20,Kopi ABC,2.0,Bungkus
+TRX-052,2026 - 5 - 20,Sabun Mandi,1.0,Bungkus
+TRX-053,2026 - 5 - 20,Shampo,2.0,Bungkus
+TRX-054,2026 - 5 - 20,Permen,2.0,Pcs
+TRX-055,2026 - 5 - 20,Materai,2.0,Lembar
+TRX-055,2026 - 5 - 20,Map,1.0,Lembar
+TRX-056,2026 - 5 - 20,Permen,1.0,Pcs
+TRX-057,2026 - 5 - 20,Teh Gelas,1.0,Cup
+TRX-057,2026 - 5 - 20,Permen,3.0,Pcs
+TRX-058,2026 - 5 - 20,Wafer Super Star,4.0,Bungkus
+TRX-058,2026 - 5 - 20,Indomie Rebus,2.0,Bungkus
 TRX-058,2026 - 5 - 20,Telor,0.25,Kg
-TRX-059,2026 - 5 - 20,Rokok Jarum Coklat,2,Bungkus
-TRX-060,2026 - 5 - 20,Rokok Jarum Super,1,Bungkus
-TRX-061,2026 - 5 - 20,Kopi Good day,2,Bungkus
-TRX-062,2026 - 5 - 20,Tolak Angin,1,Bungkus
-TRX-062,2026 - 5 - 20,Wafer Super Star,2,Bungkus
-TRX-063,2026 - 5 - 20,Rokok Jarum Super,3,Batang
-TRX-063,2026 - 5 - 20,Energen,1,Bungkus
-TRX-064,2026 - 5 - 21,Rautan Pensil,1,Pcs
-TRX-065,2026 - 5 - 21,Materai,1,Lembar
-TRX-066,2026 - 5 - 21,Materai,1,Lembar
+TRX-059,2026 - 5 - 20,Rokok Jarum Coklat,2.0,Bungkus
+TRX-060,2026 - 5 - 20,Rokok Jarum Super,1.0,Bungkus
+TRX-061,2026 - 5 - 20,Kopi Good day,2.0,Bungkus
+TRX-062,2026 - 5 - 20,Tolak Angin,1.0,Bungkus
+TRX-062,2026 - 5 - 20,Wafer Super Star,2.0,Bungkus
+TRX-063,2026 - 5 - 20,Rokok Jarum Super,3.0,Batang
+TRX-063,2026 - 5 - 20,Energen,1.0,Bungkus
+TRX-064,2026 - 5 - 21,Rautan Pensil,1.0,Pcs
+TRX-065,2026 - 5 - 21,Materai,1.0,Lembar
+TRX-066,2026 - 5 - 21,Materai,1.0,Lembar
 TRX-067,2026 - 5 - 21,Tepung Tapioka,3.25,Kg
 TRX-067,2026 - 5 - 21,Minyak Goreng Curah,0.5,Kg
-TRX-067,2026 - 5 - 21,Masako,10,Bungkus
-TRX-067,2026 - 5 - 21,Ladaku,1,Bungkus
-TRX-068,2026 - 5 - 21,Permen,6,Pcs
-TRX-069,2026 - 5 - 21,Rokok Jarum Super,1,Bungkus
-TRX-070,2026 - 5 - 21,Rokok Jarum Coklat,1,Bungkus
-TRX-071,2026 - 5 - 21,Gula Merah,2,Buah
-TRX-072,2026 - 5 - 21,Rokok Jarum Coklat,6,Batang
-TRX-073,2026 - 5 - 21,Rokok Jarum Coklat,6,Batang
+TRX-067,2026 - 5 - 21,Masako,10.0,Bungkus
+TRX-067,2026 - 5 - 21,Ladaku,1.0,Bungkus
+TRX-068,2026 - 5 - 21,Permen,6.0,Pcs
+TRX-069,2026 - 5 - 21,Rokok Jarum Super,1.0,Bungkus
+TRX-070,2026 - 5 - 21,Rokok Jarum Coklat,1.0,Bungkus
+TRX-071,2026 - 5 - 21,Gula Merah,2.0,Buah
+TRX-072,2026 - 5 - 21,Rokok Jarum Coklat,6.0,Batang
+TRX-073,2026 - 5 - 21,Rokok Jarum Coklat,6.0,Batang
 TRX-074,2026 - 5 - 22,Tepung Terigu,0.25,Kg
-TRX-075,2026 - 5 - 22,Rokok Jarum Coklat,2,Batang
+TRX-075,2026 - 5 - 22,Rokok Jarum Coklat,2.0,Batang
 TRX-076,2026 - 5 - 22,Telor,0.5,Kg
-TRX-076,2026 - 5 - 22,Wafer Super Star,2,Bungkus
-TRX-077,2026 - 5 - 22,Rokok Jarum,1,Bungkus
-TRX-078,2026 - 5 - 22,Rokok Jarum Coklat,6,Batang
-TRX-079,2026 - 5 - 22,Rokok Jarum Coklat,6,Batang
-TRX-079,2026 - 5 - 22,Rokok Jarum Super,1,Bungkus
+TRX-076,2026 - 5 - 22,Wafer Super Star,2.0,Bungkus
+TRX-077,2026 - 5 - 22,Rokok Jarum,1.0,Bungkus
+TRX-078,2026 - 5 - 22,Rokok Jarum Coklat,6.0,Batang
+TRX-079,2026 - 5 - 22,Rokok Jarum Coklat,6.0,Batang
+TRX-079,2026 - 5 - 22,Rokok Jarum Super,1.0,Bungkus
 TRX-080,2026 - 5 - 22,Minyak Goreng Curah,0.5,Kg
-TRX-081,2026 - 5 - 22,Rokok Jarum Coklat,6,Batang
-TRX-082,2026 - 5 - 22,Garam,1,Bungkus
-TRX-082,2026 - 5 - 22,Kopi Good day,1,Bungkus
-TRX-083,2026 - 5 - 22,Bawang Merah,1,Ons
-TRX-084,2026 - 5 - 22,Energen,2,Bungkus
-TRX-085,2026 - 5 - 23,Pampers,1,Pcs
-TRX-086,2026 - 5 - 23,Gas LPG,1,Tabung
-TRX-087,2026 - 5 - 23,Rokok Jarum Super,1,Bungkus
-TRX-087,2026 - 5 - 23,Kopi Kapal Api,1,Bungkus
-TRX-088,2026 - 5 - 23,Kopi Kapal Api,1,Bungkus
-TRX-089,2026 - 5 - 23,Rokok Jarum Coklat,6,Batang
-TRX-089,2026 - 5 - 23,Kopi Kapal Api,1,Bungkus
+TRX-081,2026 - 5 - 22,Rokok Jarum Coklat,6.0,Batang
+TRX-082,2026 - 5 - 22,Rokok Garam Merah,1.0,Bungkus
+TRX-082,2026 - 5 - 22,Kopi Good day,1.0,Bungkus
+TRX-083,2026 - 5 - 22,Bawang Merah,1.0,Ons
+TRX-084,2026 - 5 - 22,Energen,2.0,Bungkus
+TRX-085,2026 - 5 - 23,Pampers,1.0,Pcs
+TRX-086,2026 - 5 - 23,Gas LPG,1.0,Tabung
+TRX-087,2026 - 5 - 23,Rokok Jarum Super,1.0,Bungkus
+TRX-087,2026 - 5 - 23,Kopi Kapal Api,1.0,Bungkus
+TRX-088,2026 - 5 - 23,Kopi Kapal Api,1.0,Bungkus
+TRX-089,2026 - 5 - 23,Rokok Jarum Coklat,6.0,Batang
+TRX-089,2026 - 5 - 23,Kopi Kapal Api,1.0,Bungkus
 TRX-090,2026 - 5 - 23,Bawang Merah,0.5,Ons
-TRX-090,2026 - 5 - 23,Sasa,1,Bungkus
-TRX-091,2026 - 5 - 23,Tepung Terigu,2,Kg
-TRX-091,2026 - 5 - 23,Minyak Goreng Curah,1,Kg
+TRX-090,2026 - 5 - 23,Sasa,1.0,Bungkus
+TRX-091,2026 - 5 - 23,Tepung Terigu,2.0,Kg
+TRX-091,2026 - 5 - 23,Minyak Goreng Curah,1.0,Kg
 TRX-091,2026 - 5 - 23,Gula Pasir,0.5,Kg
-TRX-091,2026 - 5 - 23,Garam,1,Bungkus
+TRX-091,2026 - 5 - 23,Rokok Garam Merah,1.0,Bungkus
 TRX-092,2026 - 5 - 23,Minyak Goreng Curah,0.5,Kg
-TRX-092,2026 - 5 - 23,Sabun Sunlight,1,Bungkus
-TRX-092,2026 - 5 - 23,Rinso,1,Bungkus
-TRX-093,2026 - 5 - 23,Rokok Jarum Super,5,Batang
-TRX-094,2026 - 5 - 24,Kopi Kapal Api,9,Bungkus
-TRX-095,2026 - 5 - 24,Rokok Jarum Coklat,1,Bungkus
-TRX-095,2026 - 5 - 24,Rokok Jarum Super,2,Batang
-TRX-096,2026 - 5 - 24,Telor,2,Butir
-TRX-096,2026 - 5 - 24,Air Mineral,1,Botol
-TRX-097,2026 - 5 - 24,Permen,2,Pcs
+TRX-092,2026 - 5 - 23,Sabun Sunlight,1.0,Bungkus
+TRX-092,2026 - 5 - 23,Rinso,1.0,Bungkus
+TRX-093,2026 - 5 - 23,Rokok Jarum Super,5.0,Batang
+TRX-094,2026 - 5 - 24,Kopi Kapal Api,9.0,Bungkus
+TRX-095,2026 - 5 - 24,Rokok Jarum Coklat,1.0,Bungkus
+TRX-095,2026 - 5 - 24,Rokok Jarum Super,2.0,Batang
+TRX-096,2026 - 5 - 24,Telor,2.0,Butir
+TRX-096,2026 - 5 - 24,Air Mineral,1.0,Botol
+TRX-097,2026 - 5 - 24,Permen,2.0,Pcs
 TRX-098,2026 - 5 - 24,Telor,0.25,Kg
-TRX-098,2026 - 5 - 24,Permen,6,Pcs
+TRX-098,2026 - 5 - 24,Permen,6.0,Pcs
 TRX-099,2026 - 5 - 24,Telor,0.5,Kg
-TRX-100,2026 - 5 - 24,Rokok Jarum Coklat,1,Bungkus
-TRX-101,2026 - 5 - 24,Rokok Jarum Super,1,Bungkus
-TRX-101,2026 - 5 - 24,Sabun Sunlight,1,Bungkus
+TRX-100,2026 - 5 - 24,Rokok Jarum Coklat,1.0,Bungkus
+TRX-101,2026 - 5 - 24,Rokok Jarum Super,1.0,Bungkus
+TRX-101,2026 - 5 - 24,Sabun Sunlight,1.0,Bungkus
 TRX-102,2026 - 5 - 24,Telor,0.25,Kg
-TRX-102,2026 - 5 - 24,Chiki Balls,1,Bungkus
-TRX-102,2026 - 5 - 24,Royko,1,Bungkus
-TRX-103,2026 - 5 - 25,Rokok Jarum Coklat,4,Batang
-TRX-103,2026 - 5 - 25,Kopi Kapal Api,2,Bungkus
-TRX-104,2026 - 5 - 25,Rokok Jarum Super,6,Batang
-TRX-105,2026 - 5 - 25,Rokok Jarum Coklat,1,Bungkus
-TRX-106,2026 - 5 - 25,Rokok Jarum Super,1,Bungkus
-TRX-106,2026 - 5 - 25,Kopi Kapal Api,1,Bungkus
-TRX-107,2026 - 5 - 25,Minyak Goreng Curah,1,Kg
+TRX-102,2026 - 5 - 24,Chiki Balls,1.0,Bungkus
+TRX-102,2026 - 5 - 24,Royko,1.0,Bungkus
+TRX-103,2026 - 5 - 25,Rokok Jarum Coklat,4.0,Batang
+TRX-103,2026 - 5 - 25,Kopi Kapal Api,2.0,Bungkus
+TRX-104,2026 - 5 - 25,Rokok Jarum Super,6.0,Batang
+TRX-105,2026 - 5 - 25,Rokok Jarum Coklat,1.0,Bungkus
+TRX-106,2026 - 5 - 25,Rokok Jarum Super,1.0,Bungkus
+TRX-106,2026 - 5 - 25,Kopi Kapal Api,1.0,Bungkus
+TRX-107,2026 - 5 - 25,Minyak Goreng Curah,1.0,Kg
 TRX-108,2026 - 5 - 25,Telor,0.5,Kg
 TRX-109,2026 - 5 - 25,Telor,0.25,Kg
-TRX-110,2026 - 5 - 25,Lakban,3,Roll
-TRX-111,2026 - 5 - 25,Air Mineral,1,Dus
-TRX-112,2026 - 5 - 25,Kue,1,Bungkus
-TRX-112,2026 - 5 - 25,Teh Gelas,1,Cup
-TRX-113,2026 - 5 - 25,Energen,1,Bungkus
-TRX-113,2026 - 5 - 25,Beng-Beng,1,Bungkus
-TRX-114,2026 - 5 - 25,Tepung Terigu,2,Kg
-TRX-114,2026 - 5 - 25,Minyak Goreng Curah,1,Kg
+TRX-110,2026 - 5 - 25,Lakban,3.0,Roll
+TRX-111,2026 - 5 - 25,Air Mineral,1.0,Dus
+TRX-112,2026 - 5 - 25,Kue,1.0,Bungkus
+TRX-112,2026 - 5 - 25,Teh Gelas,1.0,Cup
+TRX-113,2026 - 5 - 25,Energen,1.0,Bungkus
+TRX-113,2026 - 5 - 25,Beng-Beng,1.0,Bungkus
+TRX-114,2026 - 5 - 25,Tepung Terigu,2.0,Kg
+TRX-114,2026 - 5 - 25,Minyak Goreng Curah,1.0,Kg
 TRX-114,2026 - 5 - 25,Gula Pasir,0.25,Kg
-TRX-114,2026 - 5 - 25,Sasa,1,Bungkus
-TRX-114,2026 - 5 - 25,Rokok Jarum Coklat,1,Bungkus
-TRX-115,2026 - 5 - 26,Rokok Jarum Super,1,Bungkus
-TRX-116,2026 - 5 - 26,Kopi Kapal Api,2,Bungkus
-TRX-116,2026 - 5 - 26,Rokok Jarum Coklat,3,Batang
-TRX-117,2026 - 5 - 26,Bodrex,2,Strip
-TRX-118,2026 - 5 - 26,Rokok Jarum Super,4,Batang
-TRX-119,2026 - 5 - 26,Rokok Jarum Coklat,1,Batang
+TRX-114,2026 - 5 - 25,Sasa,1.0,Bungkus
+TRX-114,2026 - 5 - 25,Rokok Jarum Coklat,1.0,Bungkus
+TRX-115,2026 - 5 - 26,Rokok Jarum Super,1.0,Bungkus
+TRX-116,2026 - 5 - 26,Kopi Kapal Api,2.0,Bungkus
+TRX-116,2026 - 5 - 26,Rokok Jarum Coklat,3.0,Batang
+TRX-117,2026 - 5 - 26,Bodrex,2.0,Strip
+TRX-118,2026 - 5 - 26,Rokok Jarum Super,4.0,Batang
+TRX-119,2026 - 5 - 26,Rokok Jarum Coklat,1.0,Batang
 TRX-120,2026 - 5 - 26,Telor,0.25,Kg
-TRX-121,2026 - 5 - 26,Kertas Wajit,1,Lembar
+TRX-121,2026 - 5 - 26,Kertas Wajit,1.0,Lembar
 TRX-122,2026 - 5 - 26,Minyak Goreng Curah,0.5,Kg
-TRX-123,2026 - 5 - 26,Indomie Goreng,1,Bungkus
-TRX-123,2026 - 5 - 26,Chitato,1,Bungkus
+TRX-123,2026 - 5 - 26,Indomie Goreng,1.0,Bungkus
+TRX-123,2026 - 5 - 26,Chitato,1.0,Bungkus
 TRX-124,2026 - 5 - 26,Telor,0.25,Kg
-TRX-124,2026 - 5 - 26,Puring Nasi,1,Lembar
-TRX-124,2026 - 5 - 26,Permen,4,Pcs
-TRX-125,2026 - 5 - 27,Kopi Good day,2,Bungkus
-TRX-126,2026 - 5 - 27,Tisu,1,Pack
-TRX-126,2026 - 5 - 27,Sabun Sunlight,1,Bungkus
-TRX-126,2026 - 5 - 27,Super Pel,1,Bungkus
+TRX-124,2026 - 5 - 26,Puring Nasi,1.0,Lembar
+TRX-124,2026 - 5 - 26,Permen,4.0,Pcs
+TRX-125,2026 - 5 - 27,Kopi Good day,2.0,Bungkus
+TRX-126,2026 - 5 - 27,Tisu,1.0,Pack
+TRX-126,2026 - 5 - 27,Sabun Sunlight,1.0,Bungkus
+TRX-126,2026 - 5 - 27,Super Pel,1.0,Bungkus
 TRX-127,2026 - 5 - 27,Tepung Terigu,0.25,Kg
-TRX-128,2026 - 5 - 27,Rokok Jarum Super,2,Bungkus
+TRX-128,2026 - 5 - 27,Rokok Jarum Super,2.0,Bungkus
 TRX-129,2026 - 5 - 27,Tepung Tapioka,0.25,Kg
-TRX-130,2026 - 5 - 27,Rokok Jarum Coklat,0.5 ,Bungkus
-TRX-131,2026 - 5 - 27,Rokok Jarum Super,1,Bungkus
-TRX-132,2026 - 5 - 28,Kopi Kapal Api,10,Bungkus
-TRX-133,2026 - 5 - 28,Air Mineral,1,Botol
-TRX-134,2026 - 5 - 28,Kopi Good day,2,Bungkus
+TRX-130,2026 - 5 - 27,Rokok Jarum Coklat,0.5,Bungkus
+TRX-131,2026 - 5 - 27,Rokok Jarum Super,1.0,Bungkus
+TRX-132,2026 - 5 - 28,Kopi Kapal Api,10.0,Bungkus
+TRX-133,2026 - 5 - 28,Air Mineral,1.0,Botol
+TRX-134,2026 - 5 - 28,Kopi Good day,2.0,Bungkus
 TRX-135,2026 - 5 - 28,Rokok Jarum Coklat,0.5,Bungkus
-TRX-136,2026 - 5 - 28,Tolak Angin,1,Bungkus
-TRX-137,2026 - 5 - 28,Teh Gelas,6,Cup
-TRX-138,2026 - 5 - 29,Rokok Jarum Super,3,Batang
-TRX-138,2026 - 5 - 29,Kerupuk,1,Bungkus
+TRX-136,2026 - 5 - 28,Tolak Angin,1.0,Bungkus
+TRX-137,2026 - 5 - 28,Teh Gelas,6.0,Cup
+TRX-138,2026 - 5 - 29,Rokok Jarum Super,3.0,Batang
+TRX-138,2026 - 5 - 29,Kerupuk,1.0,Bungkus
 TRX-139,2026 - 5 - 29,Telor,0.5,Kg
-TRX-139,2026 - 5 - 29,Detergen Rinso,4,Bungkus
-TRX-139,2026 - 5 - 29,Molto,3,Bungkus
-TRX-140,2026 - 5 - 29,Rokok Jarum Coklat,2,Batang
-TRX-140,2026 - 5 - 29,Sabun Colek,1,Bungkus
-TRX-140,2026 - 5 - 29,Silet,1,Pcs
-TRX-141,2026 - 5 - 29,Air Mineral,1,Botol
+TRX-139,2026 - 5 - 29,Detergen Rinso,4.0,Bungkus
+TRX-139,2026 - 5 - 29,Molto,3.0,Bungkus
+TRX-140,2026 - 5 - 29,Rokok Jarum Coklat,2.0,Batang
+TRX-140,2026 - 5 - 29,Sabun Colek,1.0,Bungkus
+TRX-140,2026 - 5 - 29,Silet,1.0,Pcs
+TRX-141,2026 - 5 - 29,Air Mineral,1.0,Botol
 TRX-142,2026 - 5 - 29,Telor,0.25,Kg
-TRX-142,2026 - 5 - 29,Pampers,2,Pcs
-TRX-142,2026 - 5 - 29,Permen,2,Pcs
-TRX-142,2026 - 5 - 29,Biskuit Roma,2,Bungkus
-TRX-143,2026 - 5 - 30,Tisu,1,Pack
-TRX-144,2026 - 5 - 30,Kopi Kapal Api,3,Bungkus
-TRX-145,2026 - 5 - 30,Kopi Good day,1,Bungkus
-TRX-145,2026 - 5 - 30,Kapas,1,Bungkus
-TRX-146,2026 - 5 - 30,Susu Kental Manis,1,Kaleng
-TRX-147,2026 - 5 - 30,Gas LPG,1,Tabung
-TRX-148,2026 - 5 - 30,Lem Alteco,1,Pcs
-TRX-149,2026 - 5 - 31,Rokok Jarum Super,1,Bungkus
+TRX-142,2026 - 5 - 29,Pampers,2.0,Pcs
+TRX-142,2026 - 5 - 29,Permen,2.0,Pcs
+TRX-142,2026 - 5 - 29,Biskuit Roma,2.0,Bungkus
+TRX-143,2026 - 5 - 30,Tisu,1.0,Pack
+TRX-144,2026 - 5 - 30,Kopi Kapal Api,3.0,Bungkus
+TRX-145,2026 - 5 - 30,Kopi Good day,1.0,Bungkus
+TRX-145,2026 - 5 - 30,Kapas,1.0,Bungkus
+TRX-146,2026 - 5 - 30,Susu Kental Manis,1.0,Kaleng
+TRX-147,2026 - 5 - 30,Gas LPG,1.0,Tabung
+TRX-148,2026 - 5 - 30,Lem Alteco,1.0,Pcs
+TRX-149,2026 - 5 - 31,Rokok Jarum Super,1.0,Bungkus
 TRX-149,2026 - 5 - 31,Minyak Goreng Curah,0.25,Kg
-TRX-149,2026 - 5 - 31,Gas LPG,1,Tabung
-TRX-150,2026 - 5 - 31,Gas LPG,1,Tabung
+TRX-149,2026 - 5 - 31,Gas LPG,1.0,Tabung
+TRX-150,2026 - 5 - 31,Gas LPG,1.0,Tabung
 TRX-151,2026 - 5 - 31,Rokok Jarum Coklat,0.5,Bungkus
-TRX-152,2026 - 5 - 31,Tepung Terigu,1,Kg
+TRX-152,2026 - 5 - 31,Tepung Terigu,1.0,Kg
 TRX-153,2026 - 5 - 31,Minyak Goreng Curah,0.5,Kg
-TRX-154,2026 - 5 - 31,Amplop,3,Lembar
-TRX-155,2026 - 5 - 31,Amplop,3,Lembar
-TRX-156,2026 - 5 - 31,Amplop,3,Lembar
+TRX-154,2026 - 5 - 31,Amplop,3.0,Lembar
+TRX-155,2026 - 5 - 31,Amplop,3.0,Lembar
+TRX-156,2026 - 5 - 31,Amplop,3.0,Lembar
 TRX-157,2026 - 5 - 31,Telor,0.25,Kg
-TRX-158,2026 - 6 - 1,Lem Alteco,2,Pcs
-TRX-159,2026 - 6 - 1,Rokok Jarum Super,6,Batang
-TRX-160,2026 - 6 - 1,Kopi Kapal API,4,Bungkus
-TRX-160,2026 - 6 - 1,Rokok Jarum Super,1,Bungkus
-TRX-161,2026 - 6 - 1,Rokok Jarum Coklat,6,Batang
-TRX-161,2026 - 6 - 1,Rokok Jarum Super,6,Batang
-TRX-162,2026 - 6 - 1,Rokok Jarum Coklat,2,Batang
+TRX-158,2026 - 6 - 1,Lem Alteco,2.0,Pcs
+TRX-159,2026 - 6 - 1,Rokok Jarum Super,6.0,Batang
+TRX-160,2026 - 6 - 1,Kopi Kapal API,4.0,Bungkus
+TRX-160,2026 - 6 - 1,Rokok Jarum Super,1.0,Bungkus
+TRX-161,2026 - 6 - 1,Rokok Jarum Coklat,6.0,Batang
+TRX-161,2026 - 6 - 1,Rokok Jarum Super,6.0,Batang
+TRX-162,2026 - 6 - 1,Rokok Jarum Coklat,2.0,Batang
 TRX-163,2026 - 6 - 1,Telur,0.5,Kg
-TRX-163,2026 - 6 - 1,Minyak Goreng Curah,1,Kg
-TRX-163,2026 - 6 - 1,Sabun Sunlight,1,Bungkus
-TRX-163,2026 - 6 - 1,Cheetos,1,Bungkus
-TRX-163,2026 - 6 - 1,Bawang Putih,1,Ons
-TRX-163,2026 - 6 - 1,Kecap,1,Bungkus
+TRX-163,2026 - 6 - 1,Minyak Goreng Curah,1.0,Kg
+TRX-163,2026 - 6 - 1,Sabun Sunlight,1.0,Bungkus
+TRX-163,2026 - 6 - 1,Cheetos,1.0,Bungkus
+TRX-163,2026 - 6 - 1,Bawang Putih,1.0,Ons
+TRX-163,2026 - 6 - 1,Kecap,1.0,Bungkus
 TRX-164,2026 - 6 - 1,Gula Pasir,0.25,Kg
-TRX-164,2026 - 6 - 1,Permen,3,Pcs
-TRX-165,2026 - 6 - 1,Sendal,1,Pasang
-TRX-166,2026 - 6 - 1,Tepung Tapioka,"3,25",Kg
+TRX-164,2026 - 6 - 1,Permen,3.0,Pcs
+TRX-165,2026 - 6 - 1,Sendal,1.0,Pasang
+TRX-166,2026 - 6 - 1,Tepung Tapioka,3.25,Kg
 TRX-166,2026 - 6 - 1,Minyak Goreng Curah,0.5,Kg
-TRX-166,2026 - 6 - 1,Bawang Putih,1,Ons
-TRX-166,2026 - 6 - 1,Merica,2,Bungkus
-TRX-166,2026 - 6 - 1,Sosis,2,Bungkus
+TRX-166,2026 - 6 - 1,Bawang Putih,1.0,Ons
+TRX-166,2026 - 6 - 1,Merica,2.0,Bungkus
+TRX-166,2026 - 6 - 1,Sosis,2.0,Bungkus
 TRX-167,2026 - 6 - 1,Telur,0.5,Kg
-TRX-168,2026 - 6 - 1,Rokok Jarum Super,1,Bungkus
-TRX-169,2026 - 6 - 1,Teh Pucuk,1,Botol
-TRX-170,2026 - 6 - 1,Rokok Jarum Coklat,1,Bungkus
-TRX-171,2026 - 6 - 1,Teh Pucuk,1,Botol
+TRX-168,2026 - 6 - 1,Rokok Jarum Super,1.0,Bungkus
+TRX-169,2026 - 6 - 1,Teh Pucuk,1.0,Botol
+TRX-170,2026 - 6 - 1,Rokok Jarum Coklat,1.0,Bungkus
+TRX-171,2026 - 6 - 1,Teh Pucuk,1.0,Botol
 TRX-172,2026 - 6 - 1,Telur,0.5,Kg
-TRX-173,2026 - 6 - 1,Baterai ABC,2,Pcs
+TRX-173,2026 - 6 - 1,Baterai ABC,2.0,Pcs
 TRX-174,2026 - 6 - 1,Gula Pasir,0.5,Kg
-TRX-175,2026 - 6 - 2,Kopi Good day,2,Bungkus
-TRX-176,2026 - 6 - 2,Permen,1,Pcs
-TRX-177,2026 - 6 - 2,Hansaplas,1,Pcs
-TRX-178,2026 - 6 - 2,Chiki Balls,1,Bungkus
-TRX-178,2026 - 6 - 2,Permen,3,Pcs
-TRX-178,2026 - 6 - 2,Wafer Super Star,2,Bungkus
-TRX-179,2026 - 6 - 2,Rokok Jarum Super,5,Batang
-TRX-180,2026 - 6 - 2,Air Mineral,2,Botol
-TRX-181,2026 - 6 - 2,Permen,2,Pcs
-TRX-182,2026 - 6 - 2,Wafer Super Star,2,Bungkus
-TRX-183,2026 - 6 - 2,Rokok Jarum Coklat,2,Bungkus
-TRX-183,2026 - 6 - 2,Kopi Kapal Api,10,Bungkus
-TRX-184,2026 - 6 - 2,Chitato,1,Bungkus
-TRX-185,2026 - 6 - 2,Rokok Jarum Super,1,Bungkus
-TRX-186,2026 - 6 - 2,Kopi Good day,2,Bungkus
+TRX-175,2026 - 6 - 2,Kopi Good day,2.0,Bungkus
+TRX-176,2026 - 6 - 2,Permen,1.0,Pcs
+TRX-177,2026 - 6 - 2,Hansaplas,1.0,Pcs
+TRX-178,2026 - 6 - 2,Chiki Balls,1.0,Bungkus
+TRX-178,2026 - 6 - 2,Permen,3.0,Pcs
+TRX-178,2026 - 6 - 2,Wafer Super Star,2.0,Bungkus
+TRX-179,2026 - 6 - 2,Rokok Jarum Super,5.0,Batang
+TRX-180,2026 - 6 - 2,Air Mineral,2.0,Botol
+TRX-181,2026 - 6 - 2,Permen,2.0,Pcs
+TRX-182,2026 - 6 - 2,Wafer Super Star,2.0,Bungkus
+TRX-183,2026 - 6 - 2,Rokok Jarum Coklat,2.0,Bungkus
+TRX-183,2026 - 6 - 2,Kopi Kapal Api,10.0,Bungkus
+TRX-184,2026 - 6 - 2,Chitato,1.0,Bungkus
+TRX-185,2026 - 6 - 2,Rokok Jarum Super,1.0,Bungkus
+TRX-186,2026 - 6 - 2,Kopi Good day,2.0,Bungkus
 TRX-187,2026 - 6 - 2,Gula Pasir,0.5,Kg
-TRX-188,2026 - 6 - 2,Telur,1,Kg
-TRX-189,2026 - 6 - 2,Tepung Tepung Terigu,3,Kg
+TRX-188,2026 - 6 - 2,Telur,1.0,Kg
+TRX-189,2026 - 6 - 2,Tepung Tepung Terigu,3.0,Kg
 TRX-189,2026 - 6 - 2,Minyak Goreng Curah,0.5,Kg
-TRX-189,2026 - 6 - 2,Masako,2,Bungkus
-TRX-190,2026 - 6 - 3,Choki Choki,6,Bungkus
-TRX-191,2026 - 6 - 3,Permen,1,Pcs
-TRX-192,2026 - 6 - 3,Gas LPG,1,Tabung
-TRX-193,2026 - 6 - 3,Rokok Jarum Coklat,1,Bungkus
-TRX-194,2026 - 6 - 3,Rokok Jarum Super,3,Batang
-TRX-194,2026 - 6 - 3,Rokok Jarum Coklat,2,Batang
-TRX-195,2026 - 6 - 3,Tepung Tapioka,"2,5",Kg
+TRX-189,2026 - 6 - 2,Masako,2.0,Bungkus
+TRX-190,2026 - 6 - 3,Choki Choki,6.0,Bungkus
+TRX-191,2026 - 6 - 3,Permen,1.0,Pcs
+TRX-192,2026 - 6 - 3,Gas LPG,1.0,Tabung
+TRX-193,2026 - 6 - 3,Rokok Jarum Coklat,1.0,Bungkus
+TRX-194,2026 - 6 - 3,Rokok Jarum Super,3.0,Batang
+TRX-194,2026 - 6 - 3,Rokok Jarum Coklat,2.0,Batang
+TRX-195,2026 - 6 - 3,Tepung Tapioka,2.5,Kg
 TRX-196,2026 - 6 - 3,Minyak Goreng Curah,0.5,Kg
-TRX-197,2026 - 6 - 3,Masako,8,Bungkus
-TRX-198,2026 - 6 - 3,Merica,1,Bungkus
-TRX-199,2026 - 6 - 3,Tepung Tepung Terigu,3,Kg
+TRX-197,2026 - 6 - 3,Masako,8.0,Bungkus
+TRX-198,2026 - 6 - 3,Merica,1.0,Bungkus
+TRX-199,2026 - 6 - 3,Tepung Tepung Terigu,3.0,Kg
 TRX-200,2026 - 6 - 3,Gula Pasir,0.5,Kg
-TRX-201,2026 - 6 - 3,Minyak Goreng Curah,1,Kg
+TRX-201,2026 - 6 - 3,Minyak Goreng Curah,1.0,Kg
 TRX-202,2026 - 6 - 3,Tepung Tepung Terigu,0.5,Kg
 TRX-202,2026 - 6 - 3,Minyak Goreng Curah,0.5,Kg
-TRX-203,2026 - 6 - 4,Permen,2,Pcs
-TRX-204,2026 - 6 - 4,Rokok Jarum Super,2,Batang
+TRX-203,2026 - 6 - 4,Permen,2.0,Pcs
+TRX-204,2026 - 6 - 4,Rokok Jarum Super,2.0,Batang
 TRX-205,2026 - 6 - 4,Bawang Merah,0.5,Ons
-TRX-205,2026 - 6 - 4,Kecap,1,Bungkus
-TRX-206,2026 - 6 - 4,Detergen Rinso,4,Bungkus
-TRX-206,2026 - 6 - 4,Wafer Super Star,3,Bungkus
-TRX-207,2026 - 6 - 4,Kopi Kapal Api,1,Bungkus
-TRX-207,2026 - 6 - 4,Tolak Angin,1,Bungkus
-TRX-208,2026 - 6 - 4,Rokok Jarum Coklat,6,Batang
-TRX-209,2026 - 6 - 4,Shampo,2,Bungkus
-TRX-210,2026 - 6 - 4,Pampers,2,Pcs
+TRX-205,2026 - 6 - 4,Kecap,1.0,Bungkus
+TRX-206,2026 - 6 - 4,Detergen Rinso,4.0,Bungkus
+TRX-206,2026 - 6 - 4,Wafer Super Star,3.0,Bungkus
+TRX-207,2026 - 6 - 4,Kopi Kapal Api,1.0,Bungkus
+TRX-207,2026 - 6 - 4,Tolak Angin,1.0,Bungkus
+TRX-208,2026 - 6 - 4,Rokok Jarum Coklat,6.0,Batang
+TRX-209,2026 - 6 - 4,Shampo,2.0,Bungkus
+TRX-210,2026 - 6 - 4,Pampers,2.0,Pcs
 TRX-210,2026 - 6 - 4,Telor,0.25,Kg
-TRX-210,2026 - 6 - 4,Cheetos,1,Bungkus
-TRX-210,2026 - 6 - 4,Indomie Goreng,2,Bungkus
-TRX-211,2026 - 6 - 4,Tepung Tepung Terigu,1,Kg
-TRX-211,2026 - 6 - 4,Minyak Goreng Curah,1,Kg
-TRX-212,2026 - 6 - 4,Tepung Tapioka,2,Kg
+TRX-210,2026 - 6 - 4,Cheetos,1.0,Bungkus
+TRX-210,2026 - 6 - 4,Indomie Goreng,2.0,Bungkus
+TRX-211,2026 - 6 - 4,Tepung Tepung Terigu,1.0,Kg
+TRX-211,2026 - 6 - 4,Minyak Goreng Curah,1.0,Kg
+TRX-212,2026 - 6 - 4,Tepung Tapioka,2.0,Kg
 TRX-212,2026 - 6 - 4,Minyak Goreng Curah,0.25,Kg
-TRX-212,2026 - 6 - 4,Masako,2,Bungkus
-TRX-212,2026 - 6 - 4,Merica,1,Bungkus
+TRX-212,2026 - 6 - 4,Masako,2.0,Bungkus
+TRX-212,2026 - 6 - 4,Merica,1.0,Bungkus
 TRX-213,2026 - 6 - 5,Telur,0.5,Kg
 TRX-213,2026 - 6 - 5,Minyak Goreng Curah,0.25,Kg
-TRX-214,2026 - 6 - 5,Indomie Rebus,2,Bungkus
-TRX-215,2026 - 6 - 5,Rokok Jarum Super,6,Batang
-TRX-216,2026 - 6 - 5,Rokok Jarum Coklat,1,Bungkus
-TRX-217,2026 - 6 - 5,Sabun Lifebuoy,2,Bungkus
-TRX-217,2026 - 6 - 5,Tepung Serbaguna,1,Bungkus
-TRX-217,2026 - 6 - 5,Gula Merah,1,Buah
-TRX-218,2026 - 6 - 5,Rokok Jarum Super,6,Batang
-TRX-219,2026 - 6 - 5,Detergen Rinso,7,Bungkus
-TRX-219,2026 - 6 - 5,Kopi Good Day,1,Bungkus
-TRX-220,2026 - 6 - 5,Tepung Tepung Terigu,2,Kg
-TRX-220,2026 - 6 - 5,Minyak Goreng Curah,1,Kg
-TRX-221,2026 - 6 - 5,Gas LPG,1,Tabung
+TRX-214,2026 - 6 - 5,Indomie Rebus,2.0,Bungkus
+TRX-215,2026 - 6 - 5,Rokok Jarum Super,6.0,Batang
+TRX-216,2026 - 6 - 5,Rokok Jarum Coklat,1.0,Bungkus
+TRX-217,2026 - 6 - 5,Sabun Lifebuoy,2.0,Bungkus
+TRX-217,2026 - 6 - 5,Tepung Serbaguna,1.0,Bungkus
+TRX-217,2026 - 6 - 5,Gula Merah,1.0,Buah
+TRX-218,2026 - 6 - 5,Rokok Jarum Super,6.0,Batang
+TRX-219,2026 - 6 - 5,Detergen Rinso,7.0,Bungkus
+TRX-219,2026 - 6 - 5,Kopi Good Day,1.0,Bungkus
+TRX-220,2026 - 6 - 5,Tepung Tepung Terigu,2.0,Kg
+TRX-220,2026 - 6 - 5,Minyak Goreng Curah,1.0,Kg
+TRX-221,2026 - 6 - 5,Gas LPG,1.0,Tabung
 TRX-222,2026 - 6 - 5,Tepung Tepung Terigu,0.5,Kg
-TRX-223,2026 - 6 - 5,Kopi Good Day,4,Bungkus
-TRX-223,2026 - 6 - 5,Chiki Balls,2,Bungkus
+TRX-223,2026 - 6 - 5,Kopi Good Day,4.0,Bungkus
+TRX-223,2026 - 6 - 5,Chiki Balls,2.0,Bungkus
 TRX-224,2026 - 6 - 5,Telur,0.5,Kg
 TRX-224,2026 - 6 - 5,Tepung Tepung Terigu,0.25,Bungkus
-TRX-224,2026 - 6 - 5,Kopi Good Day,1,Bungkus
-TRX-224,2026 - 6 - 5,Kamper,1,Bungkus
-TRX-224,2026 - 6 - 5,Tepung Serbaguna,1,Bungkus
+TRX-224,2026 - 6 - 5,Kopi Good Day,1.0,Bungkus
+TRX-224,2026 - 6 - 5,Kamper,1.0,Bungkus
+TRX-224,2026 - 6 - 5,Tepung Serbaguna,1.0,Bungkus
 TRX-224,2026 - 6 - 5,Kerupuk,0.25,Bungkus
 TRX-225,2026 - 6 - 5,Kerupuk,0.25,Bungkus
-TRX-226,2026 - 6 - 5,Sabun Sunlight,1,Bungkus
-TRX-227,2026 - 6 - 8,Pepsoden,1,Tube
-TRX-227,2026 - 6 - 8,Rokok Jarum Coklat,2,Batang
-TRX-228,2026 - 6 - 8,Pepsoden,1,Tube
+TRX-226,2026 - 6 - 5,Sabun Sunlight,1.0,Bungkus
+TRX-227,2026 - 6 - 8,Pepsoden,1.0,Tube
+TRX-227,2026 - 6 - 8,Rokok Jarum Coklat,2.0,Batang
+TRX-228,2026 - 6 - 8,Pepsoden,1.0,Tube
 TRX-229,2026 - 6 - 8,Tepung Tepung Terigu,0.5,Kg
-TRX-230,2026 - 6 - 8,Choki Choki,3,Bungkus
-TRX-231,2026 - 6 - 8,Chitato,2,Bungkus
-TRX-231,2026 - 6 - 8,Permen,2,Pcs
-TRX-232,2026 - 6 - 8,Detergen Rinso,1,Bungkus
-TRX-232,2026 - 6 - 8,Biskuit Arden,2,Bungkus
-TRX-233,2026 - 6 - 8,Tepung Tapioka,"2,25",Kg
+TRX-230,2026 - 6 - 8,Choki Choki,3.0,Bungkus
+TRX-231,2026 - 6 - 8,Chitato,2.0,Bungkus
+TRX-231,2026 - 6 - 8,Permen,2.0,Pcs
+TRX-232,2026 - 6 - 8,Detergen Rinso,1.0,Bungkus
+TRX-232,2026 - 6 - 8,Biskuit Arden,2.0,Bungkus
+TRX-233,2026 - 6 - 8,Tepung Tapioka,2.25,Kg
 TRX-233,2026 - 6 - 8,Minyak Goreng Curah,0.25,Kg
-TRX-233,2026 - 6 - 8,Masako,10,Bungkus
-TRX-233,2026 - 6 - 8,Aida,1,Bungkus
-TRX-233,2026 - 6 - 8,Sosis,1,Bungkus
-TRX-234,2026 - 6 - 8,Tepung Tepung Terigu,2,Kg
-TRX-234,2026 - 6 - 8,Minyak Goreng Curah ,1,Kg
+TRX-233,2026 - 6 - 8,Masako,10.0,Bungkus
+TRX-233,2026 - 6 - 8,Aida,1.0,Bungkus
+TRX-233,2026 - 6 - 8,Sosis,1.0,Bungkus
+TRX-234,2026 - 6 - 8,Tepung Tepung Terigu,2.0,Kg
+TRX-234,2026 - 6 - 8,Minyak Goreng Curah ,1.0,Kg
 TRX-235,2026 - 6 - 8,Minyak Goreng Curah,0.25,Kg
-TRX-235,2026 - 6 - 8,Biskuit Arden,1,Bungkus
-TRX-236,2026 - 6 - 9,Detergen Rinso,3,Bungkus
+TRX-235,2026 - 6 - 8,Biskuit Arden,1.0,Bungkus
+TRX-236,2026 - 6 - 9,Detergen Rinso,3.0,Bungkus
 TRX-236,2026 - 6 - 9,Telor,0.25,Kg
-TRX-236,2026 - 6 - 9,Pepsoden,1,Tube
-TRX-236,2026 - 6 - 9,Biskuit Roma,3,Bungkus
-TRX-237,2026 - 6 - 9,Rokok Jarum Super,6,Batang
+TRX-236,2026 - 6 - 9,Pepsoden,1.0,Tube
+TRX-236,2026 - 6 - 9,Biskuit Roma,3.0,Bungkus
+TRX-237,2026 - 6 - 9,Rokok Jarum Super,6.0,Batang
 TRX-237,2026 - 6 - 9,Telor,0.25,Kg
-TRX-237,2026 - 6 - 9,Detergen Rinso,2,Bungkus
-TRX-238,2026 - 6 - 9,Rokok Jarum Coklat,1,Bungkus
-TRX-239,2026 - 6 - 9,Pulpen,1,Pcs
-TRX-240,2026 - 6 - 9,Permen,2,Pcs
-TRX-241,2026 - 6 - 9,Cheetos,1,Bungkus
+TRX-237,2026 - 6 - 9,Detergen Rinso,2.0,Bungkus
+TRX-238,2026 - 6 - 9,Rokok Jarum Coklat,1.0,Bungkus
+TRX-239,2026 - 6 - 9,Pulpen,1.0,Pcs
+TRX-240,2026 - 6 - 9,Permen,2.0,Pcs
+TRX-241,2026 - 6 - 9,Cheetos,1.0,Bungkus
 TRX-242,2026 - 6 - 9,Tepung Tapioka,0.5,Kg
 TRX-242,2026 - 6 - 9,Minyak Goreng Curah,0.5,Kg
-TRX-242,2026 - 6 - 9,Masako,4,Bungkus
-TRX-242,2026 - 6 - 9,Ladaku,1,Bungkus
-TRX-243,2026 - 6 - 9,Telor,1,Kg
-TRX-244,2026 - 6 - 9,Tepung Terigu,2,Kg
-TRX-244,2026 - 6 - 9,Minyak Goreng Curah,1,Kg
-TRX-245,2026 - 6 - 9,Kopi Kapal Api,3,Bungkus
-TRX-245,2026 - 6 - 9,Rokok Jarum Super,1,Batang
-TRX-246,2026 - 6 - 9,Indomie Goreng,2,Bungkus
+TRX-242,2026 - 6 - 9,Masako,4.0,Bungkus
+TRX-242,2026 - 6 - 9,Ladaku,1.0,Bungkus
+TRX-243,2026 - 6 - 9,Telor,1.0,Kg
+TRX-244,2026 - 6 - 9,Tepung Terigu,2.0,Kg
+TRX-244,2026 - 6 - 9,Minyak Goreng Curah,1.0,Kg
+TRX-245,2026 - 6 - 9,Kopi Kapal Api,3.0,Bungkus
+TRX-245,2026 - 6 - 9,Rokok Jarum Super,1.0,Batang
+TRX-246,2026 - 6 - 9,Indomie Goreng,2.0,Bungkus
 TRX-247,2026 - 6 - 10,Telor,0.25,Kg
-TRX-248,2026 - 6 - 10,Rokok ST Mas,1,Bungkus
-TRX-248,2026 - 6 - 10,Kamper,1,Bungkus
-TRX-249,2026 - 6 - 10,Rokok Jarum Coklat,1,Bungkus
-TRX-250,2026 - 6 - 10,Air Mineral,2,Botol
-TRX-250,2026 - 6 - 10,Permen,1,Pcs
-TRX-251,2026 - 6 - 10,Rokok Super,1,Bungkus
+TRX-248,2026 - 6 - 10,Rokok ST Mas,1.0,Bungkus
+TRX-248,2026 - 6 - 10,Kamper,1.0,Bungkus
+TRX-249,2026 - 6 - 10,Rokok Jarum Coklat,1.0,Bungkus
+TRX-250,2026 - 6 - 10,Air Mineral,2.0,Botol
+TRX-250,2026 - 6 - 10,Permen,1.0,Pcs
+TRX-251,2026 - 6 - 10,Rokok Jarum Super,1.0,Bungkus
 TRX-252,2026 - 6 - 10,Minyak Goreng Curah,0.25,Kg
-TRX-252,2026 - 6 - 10,Bawang,1,Ons
+TRX-252,2026 - 6 - 10,Bawang,1.0,Ons
 TRX-253,2026 - 6 - 10,Tepung Tapioka,0.5,Kg
 TRX-253,2026 - 6 - 10,Tepung Terigu,0.25,Kg
 TRX-253,2026 - 6 - 10,Minyak Goreng Curah,0.25,Kg
-TRX-253,2026 - 6 - 10,Masako,4,Bungkus
-TRX-253,2026 - 6 - 10,Ladaku,1,Bungkus
+TRX-253,2026 - 6 - 10,Masako,4.0,Bungkus
+TRX-253,2026 - 6 - 10,Ladaku,1.0,Bungkus
 TRX-253,2026 - 6 - 10,Bawang Putih,0.5,Ons
-TRX-254,2026 - 6 - 10,Tembakau Jangkar,1,Bungkus
-TRX-254,2026 - 6 - 10,Papir,1,Pcs
-TRX-255,2026 - 6 - 10,Rokok Jarum Super,2,Bungkus
-TRX-255,2026 - 6 - 10,Terasi,6,Bungkus
-TRX-255,2026 - 6 - 10,Terasi,6,Bungkus
-TRX-256,2026 - 6 - 10,Minyak Goreng Curah,1,Kg
-TRX-256,2026 - 6 - 10,Jarum Super,4,Batang
-TRX-257,2026 - 6 - 10,Tepung Terigu,3,Kg
-TRX-257,2026 - 6 - 10,Minyak Goreng Curah,1,Kg
-TRX-257,2026 - 6 - 10,Gula Pasir Pasir,0.5 ,Kg
+TRX-254,2026 - 6 - 10,Tembakau Jangkar,1.0,Bungkus
+TRX-254,2026 - 6 - 10,Papir,1.0,Pcs
+TRX-255,2026 - 6 - 10,Rokok Jarum Super,2.0,Bungkus
+TRX-255,2026 - 6 - 10,Terasi,6.0,Bungkus
+TRX-255,2026 - 6 - 10,Terasi,6.0,Bungkus
+TRX-256,2026 - 6 - 10,Minyak Goreng Curah,1.0,Kg
+TRX-256,2026 - 6 - 10,Rokok Jarum Super,4.0,Batang
+TRX-257,2026 - 6 - 10,Tepung Terigu,3.0,Kg
+TRX-257,2026 - 6 - 10,Minyak Goreng Curah,1.0,Kg
+TRX-257,2026 - 6 - 10,Gula Pasir,0.5,Kg
 TRX-258,2026 - 6 - 11,Telor,0.25,Kg
 TRX-259,2026 - 6 - 11,Tepung Terigu,0.5,Kg
-TRX-260,2026 - 6 - 11,Rokok Jarum Coklat,5,Batang
-TRX-260,2026 - 6 - 11,Kopi Presco,1,Bungkus
+TRX-260,2026 - 6 - 11,Rokok Jarum Coklat,5.0,Batang
+TRX-260,2026 - 6 - 11,Kopi Presco,1.0,Bungkus
 TRX-261,2026 - 6 - 11,Tepung Terigu,0.5,Kg
-TRX-262,2026 - 6 - 11,Permen,2,Pcs
-TRX-263,2026 - 6 - 11,Rokok ST Mas,1,Bungkus
-TRX-263,2026 - 6 - 11,Kerupuk,1,Bungkus
-TRX-263,2026 - 6 - 11,Kopi Kapal API,2,Bungkus
+TRX-262,2026 - 6 - 11,Permen,2.0,Pcs
+TRX-263,2026 - 6 - 11,Rokok ST Mas,1.0,Bungkus
+TRX-263,2026 - 6 - 11,Kerupuk,1.0,Bungkus
+TRX-263,2026 - 6 - 11,Kopi Kapal API,2.0,Bungkus
 TRX-264,2026 - 6 - 11,Minyak Goreng Curah,0.5,Kg
-TRX-265,2026 - 6 - 11,Tepung Terigu,1,Kg
+TRX-265,2026 - 6 - 11,Tepung Terigu,1.0,Kg
 TRX-265,2026 - 6 - 11,Minyak Goreng Curah,1.5,Kg
-TRX-266,2026 - 6 - 11,Rokok ST Mas,1,Bungkus
+TRX-266,2026 - 6 - 11,Rokok ST Mas,1.0,Bungkus
 TRX-267,2026 - 6 - 11,Minyak Goreng Curah,0.25,Kg
 TRX-268,2026 - 6 - 11,Minyak Goreng Curah,0.25,Kg
-TRX-269,2026 - 6 - 11,Indomie Goreng,2,Bungkus
-TRX-270,2026 - 6 - 12,Kopi Kapal Api,1,Bungkus
-TRX-271,2026 - 6 - 12,Rokok Garam Merah,1,Bungkus
-TRX-272,2026 - 6 - 12,Rokok Jarum Cokelat,2,Bungkus
-TRX-273,2026 - 6 - 12,Kopi Presco,2,Bungkus
-TRX-274,2026 - 6 - 12,Tepung Terigu,2,Kg
-TRX-274,2026 - 6 - 12,Minyak Goreng Curah,1,Kg
-TRX-275,2026 - 6 - 12,Rokok ST Mas,1,Bungkus
-TRX-276,2026 - 6 - 12,Sabun Sunlight,1,Bungkus
-TRX-277,2026 - 6 - 12,Detergen Rinso,3,Bungkus
-TRX-278,2026 - 6 - 12,Rokok GGM,3,Bungkus
-TRX-279,2026 - 6 - 12,Tepung Terigu,1,Kg
-TRX-279,2026 - 6 - 12,Pembalut,1,Bungkus
-TRX-279,2026 - 6 - 12,Detergen Rinso,6,Bungkus
-TRX-280,2026 - 6 - 13,Rokok Jarum Cokelat,0.5 ,Bungkus
-TRX-281,2026 - 6 - 13,Tepung Terigu,2,Kg
-TRX-281,2026 - 6 - 13,Minyak Goreng Curah ,1,Kg
-TRX-282,2026 - 6 - 13,Tepung Terigu,0.25 ,Kg
-TRX-282,2026 - 6 - 13,Detergen Rinso,3,Bungkus
-TRX-282,2026 - 6 - 13,Sasa,1,Bungkus
-TRX-282,2026 - 6 - 13,Pembalut,2,Bungkus
-TRX-283,2026 - 6 - 13,Rokok Jarum Cokelat,2,Batang
-TRX-284,2026 - 6 - 13,Rokok Jarum Cokelat,0.5,Bungkus
+TRX-269,2026 - 6 - 11,Indomie Goreng,2.0,Bungkus
+TRX-270,2026 - 6 - 12,Kopi Kapal Api,1.0,Bungkus
+TRX-271,2026 - 6 - 12,Rokok Garam Merah,1.0,Bungkus
+TRX-272,2026 - 6 - 12,Rokok Jarum Coklat,2.0,Bungkus
+TRX-273,2026 - 6 - 12,Kopi Presco,2.0,Bungkus
+TRX-274,2026 - 6 - 12,Tepung Terigu,2.0,Kg
+TRX-274,2026 - 6 - 12,Minyak Goreng Curah,1.0,Kg
+TRX-275,2026 - 6 - 12,Rokok ST Mas,1.0,Bungkus
+TRX-276,2026 - 6 - 12,Sabun Sunlight,1.0,Bungkus
+TRX-277,2026 - 6 - 12,Detergen Rinso,3.0,Bungkus
+TRX-278,2026 - 6 - 12,Rokok Garam Merah,3.0,Bungkus
+TRX-279,2026 - 6 - 12,Tepung Terigu,1.0,Kg
+TRX-279,2026 - 6 - 12,Pembalut,1.0,Bungkus
+TRX-279,2026 - 6 - 12,Detergen Rinso,6.0,Bungkus
+TRX-280,2026 - 6 - 13,Rokok Jarum Coklat,0.5,Bungkus
+TRX-281,2026 - 6 - 13,Tepung Terigu,2.0,Kg
+TRX-281,2026 - 6 - 13,Minyak Goreng Curah ,1.0,Kg
+TRX-282,2026 - 6 - 13,Tepung Terigu,0.25,Kg
+TRX-282,2026 - 6 - 13,Detergen Rinso,3.0,Bungkus
+TRX-282,2026 - 6 - 13,Sasa,1.0,Bungkus
+TRX-282,2026 - 6 - 13,Pembalut,2.0,Bungkus
+TRX-283,2026 - 6 - 13,Rokok Jarum Coklat,2.0,Batang
+TRX-284,2026 - 6 - 13,Rokok Jarum Coklat,0.5,Bungkus
 TRX-285,2026 - 6 - 14,Bawang Merah,0.5,Ons
-TRX-285,2026 - 6 - 14,Tepung Terigu,1,Bungkus
-TRX-286,2026 - 6 - 14,Terasi,2,Bungkus
+TRX-285,2026 - 6 - 14,Tepung Terigu,1.0,Bungkus
+TRX-286,2026 - 6 - 14,Terasi,2.0,Bungkus
 TRX-287,2026 - 6 - 14,Minyak Goreng Curah,0.5,Kg
 TRX-288,2026 - 6 - 14,Minyak Goreng Curah,0.25,Kg
 TRX-289,2026 - 6 - 14,Minyak Goreng Curah,0.25,Kg
-TRX-290,2026 - 6 - 14,Rokok Jarum Super,1,Bungkus
-TRX-291,2026 - 6 - 14,Biskuit Roma,10,Bungkus
+TRX-290,2026 - 6 - 14,Rokok Jarum Super,1.0,Bungkus
+TRX-291,2026 - 6 - 14,Biskuit Roma,10.0,Bungkus
 TRX-292,2026 - 6 - 14,Telur,0.5,Kg
