@@ -38,6 +38,7 @@ mapping_typo = {
     'Gula Pasir Pasir': 'Gula Pasir',
 }
 df['Nama_barang'] = df['Nama_barang'].replace(mapping_typo)
+df.loc[df['Satuan'] == 'Batang', 'Nama_barang'] = df.loc[df['Satuan'] == 'Batang', 'Nama_barang'] + ' (batang)'
 
 print(f"Dataset berhasil dimuat dan dibersihkan. Total data: {df.shape[0]} baris, {df['Nama_barang'].nunique()} jenis barang.")
 df.head()

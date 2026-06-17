@@ -59,7 +59,21 @@ def load_data():
     if not os.path.exists("data.csv"):
         return None
     df = pd.read_csv("data.csv")
-    df['Jumlah'] = pd.to_numeric(df['Jumlah'], errors='coerce').fillna(0.0)
+    
+    # === PROSES DATA CLEANING ===
+    df['Jumlah'] = df['Jumlah'].astype(str).str.replace(',', '.').astype(float)
+    mapping_typo = {
+        'Rokok Jarum Cokelat': 'Rokok Jarum Coklat',
+        'Rokok Jarim Coklat': 'Rokok Jarum Coklat',
+        'Jarum Super': 'Rokok Jarum Super',
+        'Rokok Super': 'Rokok Jarum Super',
+        'Rokok GGM': 'Rokok Garam Merah',
+        'Garam': 'Rokok Garam Merah',
+        'Gula Pasir Pasir': 'Gula Pasir',
+    }
+    df['Nama_barang'] = df['Nama_barang'].replace(mapping_typo)
+    df.loc[df['Satuan'] == 'Batang', 'Nama_barang'] = df.loc[df['Satuan'] == 'Batang', 'Nama_barang'] + ' (batang)'
+    
     df['tanggal_parsed'] = pd.to_datetime(df['Tanggal'])
     df['tahun'] = df['tanggal_parsed'].dt.year
     df['bulan'] = df['tanggal_parsed'].dt.month
