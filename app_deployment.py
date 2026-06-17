@@ -184,7 +184,7 @@ else:
                     st.write(f"- **Metrik Rata-rata Error (MAE):** `{model_data['mean_mae']:.4f} unit`")
                     st.write(f"- **Jumlah Data Latih:** `{model_data['data_count']} baris`")
                     st.write("- **Preprocessing:** `StandardScaler()` (Aktif)")
-                    st.write("- **Estimator:** `DecisionTreeRegressor(max_depth=4)`")
+                    st.write("- **Estimator:** `DecisionTreeRegressor(max_depth=3, min_samples_split=20)`")
                     st.write("- **Sumber Model:** `model.joblib`")
                     
             if predict_btn:

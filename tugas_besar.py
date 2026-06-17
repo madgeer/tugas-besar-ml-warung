@@ -123,7 +123,7 @@ for fold, (train_idx, test_idx) in enumerate(kf.split(X), 1):
     
     pipeline = Pipeline([
         ('scaler', StandardScaler()),
-        ('regressor', DecisionTreeRegressor(max_depth=4, random_state=42))
+        ('regressor', DecisionTreeRegressor(max_depth=3, min_samples_split=20, random_state=42))
     ])
     
     pipeline.fit(X_tr, y_tr)
@@ -145,7 +145,7 @@ print(f"\nRata-rata MAE Keseluruhan: {mean_mae:.4f} unit laku")
 # === CELL 9: CODE ===
 final_pipeline = Pipeline([
     ('scaler', StandardScaler()),
-    ('regressor', DecisionTreeRegressor(max_depth=4, random_state=42))
+    ('regressor', DecisionTreeRegressor(max_depth=3, min_samples_split=20, random_state=42))
 ])
 final_pipeline.fit(X, y)
 

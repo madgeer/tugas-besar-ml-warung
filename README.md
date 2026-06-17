@@ -22,7 +22,7 @@ Repositori ini berisi implementasi sistem kecerdasan buatan untuk membantu pemil
 Sistem ini menggabungkan dua metode pembelajaran mesin:
 
 ### 1. Supervised Learning (Prediksi Kebutuhan Stok)
-* **Algoritma:** `DecisionTreeRegressor` (max_depth=4).
+* **Algoritma:** `DecisionTreeRegressor` (max_depth=3, min_samples_split=20).
 * **Fitur Input:**
   * `barang_id`: Representasi numerik unik produk.
   * `bulan`: Bulan target proyeksi.
@@ -30,7 +30,7 @@ Sistem ini menggabungkan dua metode pembelajaran mesin:
   * `penjualan_bulan_lalu` (Lag Feature): Total volume penjualan produk pada bulan sebelumnya.
 * **Pipeline Pemrosesan:** `StandardScaler` ➔ `DecisionTreeRegressor`.
 * **Metode Evaluasi:** 5-Fold Cross Validation.
-* **Skor MAE (Mean Absolute Error):** ±3.72 unit laku per minggu.
+* **Skor MAE (Mean Absolute Error):** ±3.11 unit laku per minggu.
 
 ### 2. Unsupervised Learning (Analisis Keranjang Belanja)
 * **Algoritma:** `Apriori` & `Association Rules` (mlxtend).
